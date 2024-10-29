@@ -1,0 +1,592 @@
+/**
+*
+*@arthurrls
+*
+*/
+
+body, html, #home{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: linear-gradient(to bottom, white -30%, black 80%);
+    position: relative;
+    overflow-x: hidden;
+}   
+
+.caixa{
+    margin: 90px 0;
+}
+
+.clear{
+    clear: both;
+}
+
+/* barra de navegação
+--------------------------*/
+.divisor{
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+.navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-nav .nav-link:hover{
+    color: #9bf0e1;
+}
+
+.navbar-color{
+    background-color: black;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, 0.5);
+    border-color: white;
+}
+
+
+/* capa
+--------------------------*/
+
+.capa{
+    text-align: left;
+}
+
+#home img{
+    position: absolute;
+    top: 0;
+    left: 485px;
+    width: 900px;
+}
+
+a.btn-custom{
+    
+    border-radius: 500px;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: 1px solid white;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+a.btn-branco{
+    color: white;
+}
+
+a.btn-branco:hover{
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.1);
+    color: black;
+}
+
+a.btn-preto{
+    color: white;
+    background-color: black;
+}
+
+a.btn-preto:hover{
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.1);
+    color: black;
+}
+
+#home p{
+    margin-top: 5px;
+    color: white;
+    font-size: 0.7em;
+    letter-spacing: 0.7px;
+}
+
+/* table
+--------------------------*/
+
+#table{
+    background-color: black;
+}
+
+#table h1{
+    font-weight: 900;
+    letter-spacing: -0.5px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+#table h2{
+    font-size: 1.7em;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+#table h4{
+    font-size: 1.3em;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.traco-nulo{
+    width: 30px;
+    height: 4px;
+    background: white;
+    margin-left: 90px;
+}
+
+.correto-icone{
+    width: 55px;
+    margin-left: 70px;
+}
+
+/* recursos
+--------------------------*/
+
+#recursos{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    background-color: black;
+}
+
+#recursos h1{
+    font-weight: 700;
+    font-size: 2em ;
+    letter-spacing: -0.5px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+#recursos h2{
+    font-weight: 700;
+    font-size: 1.5em ;
+    letter-spacing: 0.5px;
+    margin-top: 90px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+#recursos h3{
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: white;
+    width: 700px;
+    margin: 0 auto;
+}
+
+#recursos ul{
+    margin: 50px auto;
+    margin-left: 350px;
+    list-style: none;
+}
+
+#recursos ul li{
+    float: left;
+    margin: 0 5px;
+}
+
+/* planos
+--------------------------*/
+#planos{
+    margin-bottom: 80px;
+    padding-bottom: 100px;
+    background-color: black;
+}
+
+#planos h1{
+    font-weight: 700;
+    font-size: 2em ;
+    letter-spacing: -0.5px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+#planos h2{
+    font-weight: 700;
+    font-size: 1.5em ;
+    letter-spacing: 0.5px;
+    margin-top: 90px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+#planos h3{
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: white;
+    width: 700px;
+    margin: 0 auto;
+}
+
+#planos ul{
+    list-style:square;
+}
+
+#planos ul li{
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* Cartão-plano-1
+--------------------------*/
+
+.cartao-plano-1{
+    margin-left: 2px;
+    margin-top: 80px;
+    height: 550px;
+    border-radius: 10px;
+    background-color: #242424;
+}
+
+.etiqueta-rosa{
+    padding: 3px 0;
+    margin-bottom: 30px;
+    background-color: #9bf0e1;
+    text-align: center;
+    font-weight: 700;
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #FFD2D7;
+}
+
+#planos p{
+    color: white;
+    display: inline-block;
+}
+
+#planos .cartao-plano-1 h1{
+    color: #FFD2D7;
+    font-size: 2.2em;
+}
+
+#planos .cartao-plano-1 h2{
+    color: white;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 0;
+}
+
+#planos .cartao-plano-1 h3{
+    color: white;
+    font-size: 0.8em;
+    display: block;
+}
+
+.botão-planos .btn-rosa{
+    background-color: #FFD2D7;
+    color: black;
+}
+
+.botão-planos .btn-rosa span{
+    font-weight: 700;
+}
+
+.botão-planos .btn-rosa:hover{
+    background-color: #FFD2D7;
+    transform: scale(1.05);
+    color: black;
+}
+
+.botão-planos .btn-branco span{
+    font-weight: 700;
+}
+
+/* Cartão-plano-2
+--------------------------*/
+
+.cartao-plano-2{
+    margin-left: 2px;
+    margin-top: 80px;
+    height: 550px;
+    border-radius: 10px;
+    background-color: #242424;
+}
+
+#planos .cartao-plano-2 h1{
+    color: #C4B1D4;
+    font-size: 2.2em;
+}
+
+#planos .cartao-plano-2 h2{
+    color: white;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 0;
+}
+
+#planos .cartao-plano-2 h3{
+    color: white;
+    font-size: 0.8em;
+    display: block;
+}
+
+.etiqueta-roxo{
+    padding: 3px 0;
+    margin-bottom: 30px;
+    background-color: #C4B1D4;
+    text-align: center;
+    font-weight: 700;
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.botão-planos .btn-roxo{
+    background-color: #C4B1D4;
+    color: black;
+}
+
+.botão-planos .btn-roxo:hover{
+    background-color: #C4B1D4;
+    transform: scale(1.05);
+    color: black;
+}
+
+.botão-planos .btn-roxo span{
+    font-weight: 700;
+}
+
+/* Cartão-plano-3
+--------------------------*/
+
+.cartao-plano-3{
+    margin-left: 2px;
+    margin-top: 80px;
+    height: 550px;
+    border-radius: 10px;
+    background-color: #242424;
+}
+
+#planos .cartao-plano-3 h1{
+    color: #FFC862;
+    font-size: 2.2em;
+}
+
+#planos .cartao-plano-3 h2{
+    color: white;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+#planos .cartao-plano-3 h3{
+    color: white;
+    font-size: 0.8em;
+    display: block;
+}
+
+.botão-planos .btn-dourado{
+    background-color: #FFC862;
+    color: black;
+}
+
+.botão-planos .btn-dourado:hover{
+    background-color: #FFC862;
+    transform: scale(1.05);
+    color: black;
+}
+
+.botão-planos .btn-dourado span{
+    font-weight: 700;
+}
+
+#planos .cartao-plano-3 .lista-planos ul{
+    margin-top: 40px;
+    margin-bottom: 55px;
+}
+
+/* Cartão-plano-4
+--------------------------*/
+
+.cartao-plano-4{
+    margin-left: 2px;
+    margin-top: 80px;
+    height: 550px;
+    border-radius: 10px;
+    background-color: #242424;
+}
+
+#planos .cartao-plano-4 h1{
+    color: #A5BBD1;
+    font-size: 2.2em;
+}
+
+#planos .cartao-plano-4 h2{
+    color: white;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+#planos .cartao-plano-4 h3{
+    color: white;
+    font-size: 0.8em;
+    display: block;
+}
+
+.botão-planos .btn-azul{
+    background-color: #A5BBD1;
+    color: black;
+}
+
+.botão-planos .btn-azul:hover{
+    background-color: #A5BBD1;
+    transform: scale(1.05);
+    color: black;
+}
+
+.botão-planos .btn-azul span{
+    font-weight: 700;
+}
+
+#planos .cartao-plano-4 .lista-planos ul{
+    margin-top: 10px;
+}
+
+/* Formatação-cartão
+--------------------------*/
+
+#planos p.p-aviso{
+    color: #A7A7A7;
+}
+
+#planos .lista-planos ul{
+    list-style: disc;
+    margin: 20px 0;
+}
+
+#planos .lista-planos ul li p{
+    font-size: 0.8em;
+    margin: 2px;
+}
+
+.botão-planos .btn-custom{
+    margin-bottom: 15px;
+}
+
+.botão-planos .btn-branco span{
+    font-weight: 700;
+}
+
+.botão-planos .btn-branco:hover{
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.05);
+    color: black;
+}
+
+.entrelinhas-planos p.p-aviso{
+    font-size: 0.7em;
+    text-align: center;
+}
+
+/* footer
+--------------------------*/
+
+footer{
+    background-color: black;
+    height: 400px;
+    position: relative;
+}
+
+footer h3{
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a{
+    color: white;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover{
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    float: left;
+    margin: 0 10px;
+}
+
+footer img{
+    margin: 10px 0;
+}
+
+/* tipografia
+--------------------------*/
+
+#home h1{
+    font-weight: 900;
+    letter-spacing: -0.5px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+#home h3{
+    font-size: 1.3em;
+    font-weight: 500;
+    color: white;
+    letter-spacing: -0.04em;
+    margin-bottom: 15px;
+}
+
+/*// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    h1{
+        font-size: 3em;
+    }
+
+    .btn-custom{
+        margin: 10px 15px;
+    }
+ }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    h1{
+        font-size: 4em;
+    }
+
+    .btn-custom{
+        margin: 10px 15px;
+    }
+ }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    h1{
+        font-size: 5em;
+    }
+ }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    h1{
+        font-size: 6em;
+    }
+ }
+
+
